@@ -5,6 +5,7 @@
  * @format
  */
 
+import * as SecureStorage from '@op-engineering/op-s2';
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
@@ -24,6 +25,8 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+SecureStorage;
 
 type SectionProps = PropsWithChildren<{
   title: string;
